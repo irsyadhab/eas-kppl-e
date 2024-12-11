@@ -8,13 +8,15 @@ Kelas  : KPPL E
 
 - __Dalam Pengembangan Perangkat Lunak ada fase Analisis dan Desain.__
   
-   - Terangkan aktivitas yang dilakukan dalam fase Analisis dan Desain
+   - __Terangkan aktivitas yang dilakukan dalam fase Analisis dan Desain__
+     
      Dalam fase analisis, fokus utamanya adalah menganalisis kebutuhan. Kebutuhan software secara umum dibagi menjadi 2, yaitu kebutuhan fungsional dan kebutuhan non fungsional. Jika perangkat lunak yang akan dibuat adalah Hotel Reservation System, maka kebutuhan fungsionalnya adalah customer dapat melakukan transaksi dengan memesan kamar secara online, dan admin hotel dapat mengetahui riwayat pesanan dari customer dan kamar mana yang masih kosong.
      Dalam fase desain, secara umum terbagi menjadi 2, yaitu desain UI dan desain database. Contoh desain UI pada aplikasi Hotel Reservation System sederhana adalah sebagai berikut.
      ![Screenshot (119)](https://github.com/user-attachments/assets/df04dc2f-1e24-4a57-a66c-b56da7a2cae0)
      
      Desain database berarti menganalisis entitas dalam sistem, atribut yang dimilikinya, dan relasi antar entitas. Sebagai contoh, dalam Hotel Reservation System, terdapat beberapa entitas, yaitu Customer, Admin Hotel, Kamar Hotel, dan Transaksi. Dalam entitas kamar hotel, terdapat beberapa atribut, seperti nomor kamar, jenis bed (single, duo), dan harga kamar.
-   - Apa Output dari aktivitas tersebut untuk mendukung pengembangan perangkat lunak.
+   - __Apa Output dari aktivitas tersebut untuk mendukung pengembangan perangkat lunak.__
+     
      Output dari fase analisis dan desain adalah untuk mendapatkan gambaran yang jelas dari requirement software dan desain sebelum lanjut ke tahap implementasi.
 
 - __Dalam model Waterfall, setiap tahap memiliki fungsi spesifik. Jelaskan lima tahap utama dalam model ini, serta sebutkan kelebihan dan kekurangan dari model tersebut dalam konteks proyek besar yang memiliki persyaratan tetap.__
