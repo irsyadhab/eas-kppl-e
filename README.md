@@ -7,6 +7,7 @@ NRP  : 50255221150
 Kelas  : KPPL E
 
 - __Dalam Pengembangan Perangkat Lunak ada fase Analisis dan Desain.__
+  
    - Terangkan aktivitas yang dilakukan dalam fase Analisis dan Desain
      Dalam fase analisis, fokus utamanya adalah menganalisis kebutuhan. Kebutuhan software secara umum dibagi menjadi 2, yaitu kebutuhan fungsional dan kebutuhan non fungsional. Jika perangkat lunak yang akan dibuat adalah Hotel Reservation System, maka kebutuhan fungsionalnya adalah customer dapat melakukan transaksi dengan memesan kamar secara online, dan admin hotel dapat mengetahui riwayat pesanan dari customer dan kamar mana yang masih kosong.
      Dalam fase desain, secara umum terbagi menjadi 2, yaitu desain UI dan desain database. Contoh desain UI pada aplikasi Hotel Reservation System sederhana adalah sebagai berikut.
@@ -17,6 +18,7 @@ Kelas  : KPPL E
      Output dari fase analisis dan desain adalah untuk mendapatkan gambaran yang jelas dari requirement software dan desain sebelum lanjut ke tahap implementasi.
 
 - __Dalam model Waterfall, setiap tahap memiliki fungsi spesifik. Jelaskan lima tahap utama dalam model ini, serta sebutkan kelebihan dan kekurangan dari model tersebut dalam konteks proyek besar yang memiliki persyaratan tetap.__
+  
   Terdapat lima tahap utama dalam mengembangkan software menggunakan metode waterfall, yaitu:
   - Requirement Analysis
     Pada tahap ini, pengembang harus mengetahui kebutuhan pengguna terhadap perangkat lunak. Informasi tersebut umumnya diperoleh melalui survei, wawancara, dan diskusi. Selanjutnya, informasi itu dianalisis dan diolah, sehingga pengembang memperoleh berbagai data yang cukup lengkap terkait detail kebutuhan pengguna terhadap perangkat lunak yang nantinya akan dikembangkan. Selain kebutuhan pengguna, perlu dipersiapkan juga kebutuhan pengembang dalam proses pengembangan perangkat lunak, dapat berupa software pendukung yang dapat digunakan untuk membantu pengembang.
@@ -33,6 +35,7 @@ Kelas  : KPPL E
     Kekurangan dari metode waterfall adalah kurangnya fleksibilitas karena setiap tahapan pengembangan harus dilakukan secara berurutan. Selain itu, waktu pengembangan dapat berlangsung relatif lama, sebagai contoh tim pengembang tidak dapat memulai proses implementasi sebelum mendapatkan desain UI dan database dari tim desain.
     
 - __Jelaskan perbedaan antara architectural design dan detailed design. Mengapa kedua jenis desain tersebut diperlukan dalam proses pengembangan perangkat lunak?__
+  
   Architectural Design merupakan gambaran umum dari struktur sistem. Ini mencakup bagaimana komponen utama saling berhubungan, bagaimana data mengalir di antara komponen, dan bagaimana interaksi antar subsistem. Tujuannya adalah untuk mengidentifikasi struktur perangkat lunak, teknologi yang akan digunakan, dan pola arsitektur (misalnya, client-server, peer to peer).
 
   Detailed Design merupakan rincian teknis dari setiap komponen yang diidentifikasi dalam architectural design, bertujuan untuk mendefinisikan bagaimana setiap komponen sistem akan diimplementasikan secara spesifik. Hasilnya dapat berupa pseudocode, diagram kelas, dan spesifikasi API.
@@ -40,6 +43,7 @@ Kelas  : KPPL E
   Kedua Jenis Desain ini diperlukan dalam proses pengembangan perangkat lunak dengan tujuan untuk mempermudah pengelolaan tentang kompleksitas sistem, memastikan konsistensi dan kesesuaian, efisiensi dalam kolaborasi tim, meningkatkan skalabilitas dan kualitas, serta mempermudah proses dokumentasi dan pemeliharaan. Dengan memadukan kedua jenis desain ini, proses pengembangan perangkat lunak dapat lebih terstruktur dan efisien.
   
 - __Sebuah perusahaan membutuhkan sistem e-commerce untuk menjual produk digital seperti foto, video, desain poster, ebook. Saat ini transaksi dihandle dengan WhatsApp. Namun seiring dengan perkembangan bisnis tools tersebut tidak mampu menangani lonjakan transaksi. Buatkan sistem / aplikasi yang mampu menangani lonjakan transaksi pada musim tertentu. Jelaskan pendekatan rekayasa perangkat lunak yang akan Anda gunakan untuk merancang, membangun, dan menguji sistem tersebut agar memenuhi kebutuhan klien.__
+  
   Untuk merancang dan membangun sistem e-commerce yang mampu menangani lonjakan transaksi pada musim tertentu, digunakan pendekatan pengembangan perangkat lunak yang berfokus pada skalabilitas dan performa. Pendekatan ini menggunakan metode waterfall yang mencakup beberapa tahap utama, yaitu analisis kebutuhan, desain, implementasi, pengujian, dan pemeliharaan.
 
   - Analisis Kebutuhan
